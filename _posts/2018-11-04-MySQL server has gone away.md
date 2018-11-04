@@ -9,7 +9,7 @@ tags:
 
 
 
-在使用SQL文件初始化数据库时，发生了 <font color=red>"MySQL server has gone away"</font> 这样一个错误，Mysql服务断开了连接。
+在使用SQL文件初始化数据库时，发生了"***MySQL server has gone away***" 这样一个错误，Mysql服务断开了连接。
 
 经排查，因为执行的SQL中有一条insert语句插入的内容大于**max_allowed_packet**的限制。
 
